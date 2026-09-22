@@ -47,6 +47,14 @@ When you make a change to **either the code (`index.html`) or any `.md` doc**:
 
 ## Entries
 
+## 2026-09-22 — AI Studio migration: Express server configuration and environment setup
+- **Who:** Gemini (AI Studio Coding Agent)
+- **Type:** code
+- **What:** Migrated repository to run in AI Studio sandbox container. Configured a lightweight Node.js Express server (`server.js`) on port 3000 to serve the static application without modifying existing client code, data structures, or Google Sheets contracts. Added `package.json` with `dev`, `start`, `build`, and `lint` scripts, created `metadata.json`, and synced description/OpenGraph tags in `index.html`.
+- **Files:** package.json, server.js, metadata.json, .env.example, index.html, CHANGELOG.md
+- **Docs synced:** yes — CHANGELOG.md
+- **Notes / follow-ups:** Preserved the vanilla static architecture and Google Sheets data contracts per repository rules in AGENTS.md.
+
 ## 2026-07-30 — Doctor statistics: praise count, rotations, detached-status styling, computed roster column, full sort panel
 - **Who:** Claude Sonnet 5 (claude.ai)
 - **Type:** both

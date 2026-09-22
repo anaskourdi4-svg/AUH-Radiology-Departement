@@ -1,0 +1,8 @@
+{
+  "name": "أطباء قسم الأمراض الداخلية — مشفى حلب الجامعي",
+  "description": "لوحة أطباء قسم الأمراض الداخلية بمشفى حلب الجامعي — جدول المناوبات، الإحصائيات ومعلومات الأطباء",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
