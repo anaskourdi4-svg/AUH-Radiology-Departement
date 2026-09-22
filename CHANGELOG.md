@@ -47,6 +47,14 @@ When you make a change to **either the code (`index.html`) or any `.md` doc**:
 
 ## Entries
 
+## 2026-09-22 — Link new Year-1 main spreadsheet and bump cache keys
+- **Who:** Gemini (AI Studio Coding Agent)
+- **Type:** data-contract
+- **What:** Switched the primary spreadsheet ID (`main` / `SID`) from `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` to the requested Year-1 sheet `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`. Bumped `cacheVersion` to `hc_v66` (and legacy `CK` to `hc_v64`) so clients immediately invalidate older cached records.
+- **Files:** js/core/config.js, helpers.js, DATA-MODEL.md, docs/DATA-CONTRACT.md, CHANGELOG.md
+- **Docs synced:** yes — DATA-MODEL.md, docs/DATA-CONTRACT.md, CHANGELOG.md
+- **Notes / follow-ups:** Ensure the new Google Sheet is set to "Anyone with the link can view" so client-side gviz fetches succeed without authorization errors.
+
 ## 2026-09-22 — AI Studio migration: Express server configuration and environment setup
 - **Who:** Gemini (AI Studio Coding Agent)
 - **Type:** code

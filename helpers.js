@@ -236,7 +236,7 @@ function parseDurationHours(s){
   return n;
 }
 
-const SID='1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4';
+const SID='1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys';
 const GID_R='0';
 const GID_O='238974679';
 const GID_E='253629565';
@@ -315,7 +315,7 @@ const AM=['كانون الثاني','شباط','آذار','نيسان','أيار
 const DAY_NAMES=['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'];
 
 const APP_BUILD_ID=(window.__APP_BUILD_ID__||'dev').trim();
-const CK='hc_v63_'+APP_BUILD_ID;
+const CK='hc_v64_'+APP_BUILD_ID;
 const CD=10*60*1000;
 
 // Fixed on-call duty times/durations (manually set — these rarely change, so

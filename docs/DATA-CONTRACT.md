@@ -37,21 +37,21 @@ node tools/generate-data-contract.mjs
 
 | المفتاح | الجدول | الشيت | GID | الصيغة |
 |---|---|---|---|---|
-| `residents` | لائحة المقيمين | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `0` | CSV |
-| `oncall` | المناوبات (السنة الأولى) | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `238974679` | JSON |
+| `residents` | لائحة المقيمين | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `0` | CSV |
+| `oncall` | المناوبات (السنة الأولى) | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `238974679` | JSON |
 | `oncallYear2` | مناوبات السنة الثانية | `1dOvCHFQBYz0wFklUFicjf8iU3IscJNzUrUcSYeKMlh8` | `0` | CSV |
-| `oncallAdjustments` | تعديلات المناوبات | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `1181737768` | CSV |
-| `evaluation` | التقييم السنوي | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `253629565` | CSV |
-| `links` | روابط هامة | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `1649404909` | CSV |
-| `qa` | الأسئلة والأجوبة | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `680270268` | JSON |
-| `lectures` | رزنامة المحاضرات والأنشطة | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `393274093` | CSV |
-| `oncallRules` | قواعد المناوبات (العطل السنوية) | `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4` | `1364488029` | CSV |
+| `oncallAdjustments` | تعديلات المناوبات | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `1181737768` | CSV |
+| `evaluation` | التقييم السنوي | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `253629565` | CSV |
+| `links` | روابط هامة | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `1649404909` | CSV |
+| `qa` | الأسئلة والأجوبة | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `680270268` | JSON |
+| `lectures` | رزنامة المحاضرات والأنشطة | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `393274093` | CSV |
+| `oncallRules` | قواعد المناوبات (العطل السنوية) | `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys` | `1364488029` | CSV |
 
 ---
 
 ## لائحة المقيمين  `residents`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `0` — **الصيغة:** CSV
 - **صف العناوين:** الصف 0
 
@@ -85,7 +85,7 @@ node tools/generate-data-contract.mjs
 
 ## المناوبات (السنة الأولى)  `oncall`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `238974679` — **الصيغة:** JSON
 - **صف العناوين:** الصف 0
 
@@ -112,7 +112,7 @@ node tools/generate-data-contract.mjs
 
 ## تعديلات المناوبات  `oncallAdjustments`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `1181737768` — **الصيغة:** CSV
 - **صف العناوين:** الصف 0
 
@@ -128,7 +128,7 @@ node tools/generate-data-contract.mjs
 
 ## التقييم السنوي  `evaluation`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `253629565` — **الصيغة:** CSV
 - **صف العناوين:** الصف 0
 
@@ -163,7 +163,7 @@ node tools/generate-data-contract.mjs
 
 ## روابط هامة  `links`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `1649404909` — **الصيغة:** CSV
 - **صف العناوين:** الصف 0
 
@@ -180,7 +180,7 @@ node tools/generate-data-contract.mjs
 
 ## الأسئلة والأجوبة  `qa`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `680270268` — **الصيغة:** JSON
 - **صف العناوين:** الصف 0
 
@@ -195,7 +195,7 @@ node tools/generate-data-contract.mjs
 
 ## رزنامة المحاضرات والأنشطة  `lectures`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `393274093` — **الصيغة:** CSV
 - **صف العناوين:** الصف 0
 
@@ -220,7 +220,7 @@ node tools/generate-data-contract.mjs
 
 ## قواعد المناوبات (العطل السنوية)  `oncallRules`
 
-- **الشيت:** `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **الشيت:** `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - **GID:** `1364488029` — **الصيغة:** CSV
 - **صف العناوين:** الصف 0
 

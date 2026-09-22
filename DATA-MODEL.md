@@ -6,7 +6,7 @@ There is no server and no write path — the app is read-only against the sheet.
 
 ## Source spreadsheet
 
-- **Spreadsheet ID** (`SID` in code): `1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4`
+- **Spreadsheet ID** (`SID` in code): `1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys`
 - The sheet must be shared as **"Anyone with the link can view"**, or the
   browser fetch fails and the page shows cached/empty data.
 

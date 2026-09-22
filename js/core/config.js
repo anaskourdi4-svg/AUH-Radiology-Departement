@@ -52,7 +52,7 @@
     /** Google Sheets (gviz) source spreadsheets, keyed by the name used in the schema. */
     spreadsheets: {
       /** Main spreadsheet: residents, on-call, evaluation, links, Q&A, lectures, rules, adjustments. */
-      main: '1Pb5VK1HsccaJpKXm-jersktd8yk4jf1V7o8qsDDmCI4',
+      main: '1TCTNvSNZ2Kf7_hwbDukcYiUVfLeXFz07yM0Mp1gB_ys',
       /** Second-year on-call schedule — a separate sheet maintained by another team. */
       year2: '1dOvCHFQBYz0wFklUFicjf8iU3IscJNzUrUcSYeKMlh8',
       /** Third and fourth years — one roster tab, names and abbreviations only. */
@@ -107,7 +107,7 @@
     defaultYear: 1,
 
     /** localStorage cache. Bump `cacheVersion` to invalidate every visitor's cache. */
-    cacheVersion: 'hc_v65',
+    cacheVersion: 'hc_v66',
     get cacheKey() {
       return `${this.cacheVersion}_${this.buildId}`;
     },
