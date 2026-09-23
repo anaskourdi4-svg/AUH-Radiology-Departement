@@ -47,6 +47,14 @@ When you make a change to **either the code (`index.html`) or any `.md` doc**:
 
 ## Entries
 
+## 2026-09-22 — Dynamic build ID cache busting and stale localStorage auto-purge
+- **Who:** Gemini (AI Studio Coding Agent)
+- **Type:** fix
+- **What:** Injected dynamic `BUILD_ID` cache-busting tokens into script and asset tags in `index.html` via Express server, added anti-caching HTTP headers (`no-store, no-cache`), and updated `js/data/repository.js` to automatically detect spreadsheet ID changes and purge older cached versions from `localStorage` upon initial load.
+- **Files:** server.js, js/data/repository.js, CHANGELOG.md
+- **Docs synced:** yes — CHANGELOG.md
+- **Notes / follow-ups:** Resolves issue where browsers retained old script files and cached roster records across spreadsheet updates.
+
 ## 2026-09-22 — Link new Year-1 main spreadsheet and bump cache keys
 - **Who:** Gemini (AI Studio Coding Agent)
 - **Type:** data-contract

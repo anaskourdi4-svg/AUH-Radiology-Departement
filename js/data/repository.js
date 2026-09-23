@@ -170,12 +170,17 @@
   }
 
   function readCache() {
+    clearOldCaches();
     try {
       const raw = AUH.storage.get(AUH.config.cacheKey);
       if (!raw) return null;
       const payload = JSON.parse(raw);
       if (!payload || !payload.timestamp) return null;
       if (Date.now() - payload.timestamp > AUH.config.cacheTtlMs) return null;
+      if (payload.mainSpreadsheet && payload.mainSpreadsheet !== AUH.config.spreadsheets.main) {
+        AUH.storage.remove(AUH.config.cacheKey);
+        return null;
+      }
       // An empty payload would render an empty site instantly and hide the real
       // problem, so it is treated as no cache at all.
       return hasUsefulData(payload.sources) ? payload.sources : null;
@@ -192,16 +197,22 @@
     }
     const saved = AUH.storage.set(
       AUH.config.cacheKey,
-      JSON.stringify({ timestamp: Date.now(), version: AUH.config.cacheVersion, sources: rawTables })
+      JSON.stringify({
+        timestamp: Date.now(),
+        version: AUH.config.cacheVersion,
+        mainSpreadsheet: AUH.config.spreadsheets.main,
+        sources: rawTables
+      })
     );
     if (!saved) log.debug('repository', 'تعذر حفظ النسخة المؤقتة (التخزين غير متاح)');
   }
 
   /** Removes caches written by older versions/builds of the app. */
   function clearOldCaches() {
+    const currentKey = AUH.config.cacheKey;
     AUH.storage
       .keys()
-      .filter(k => k.startsWith('hc_v'))
+      .filter(k => k.startsWith('hc_v') && k !== currentKey)
       .forEach(k => AUH.storage.remove(k));
   }
 
